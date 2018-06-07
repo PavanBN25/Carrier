@@ -1,0 +1,159 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron" >
+    <img src="~/Image/sunset-video-scr.jpg" style="width:100%;height:100%;" alt="">
+</div>
+
+
+<div class="row">
+    <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover" @*style="position: relative;display: block;max-width: 400px;"*@>
+                <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                </div>
+            </div>
+            <img class="img-fluid" src="~/Image/Home/Services.jpg" style="width:100%;height:100%; " alt="">
+        </a>
+        <div class="portfolio-caption">
+            <h4>SERVICES</h4>
+            <p class="text-muted"><i>ONE FAMILY OF COMPANIES.  ONE POINT OF CONTACT.  COUNTLESS SOLUTIONS.</i></p>
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover" @*style="position: relative;display: block;max-width: 400px;"*@>
+                <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                </div>
+            </div>
+            <img class="img-fluid" src="~/Image/Home/AboutUs.jpg" style="width:100%;height:100%;" alt="">
+        </a>
+        <div class="portfolio-caption">
+            <h4>ABOUT US</h4>
+            <p class="text-muted"><i> TO KNOW MORE...</i></p>
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover" @*style="position: relative;display: block;max-width: 400px;"*@>
+                <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                </div>
+            </div>
+            <img class="img-fluid" src="~/Image/Home/Career.png" style="width:100%;height:100%;" alt="">
+        </a>
+        <div class="portfolio-caption">
+            <h4>CAREERS</h4>
+            <p class="text-muted"><i>OPPORTUNITIES FOR YOUR SKILLS ...</i></p>
+        </div>
+    </div>  
+</div>
+
+
+<!-- Modal 1-->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto">
+                        <div class="modal-body" style="align-self:center; text-align: center;">
+                            <!-- Project Details Go Here -->
+                            <h2>Services</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="~/Image/Home/Services_full.jpg" alt="">
+                            <p style="text-align:center;">We believe a key element of a successful partnership is knowing the unique challenges facing your business.
+                            That’s why your account executive is your one point of contact for all that RTS has to offer: they become totally 
+                            integrated in your world, making it their business to know everything about yours. This enables RTS to better tailor 
+                            our services to meet the evolving needs of both our customers and our carriers. <a href="https://www.relyonrts.com/services/"> TO KNOW MORE.</a></p>
+                            
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fa fa-times"></i>
+                                Close 
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto">
+                        <div class="modal-body" style="align-self:center; text-align: center;">
+                            <h2>About Us</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="~/Image/Home/Aboutus_full.jpg" style="width:100%;height:100%;" alt="">
+                            <br>
+                            <p>
+                                Apple, Google, Mattel, Hewlett-Packard, Amazon, Microsoft, Harley Davidson…all now household names.
+                                All started in garages. RTS, too, started in a garage in 2006. We knew when we started that the odds were stacked against us.
+                                Facing not only the challenges of the Great Recession, but also of being a new name in the crowded logistics market, we set out to be different.
+                                <a href="https://www.relyonrts.com/#aboutPage"> TO KNOW MORE.</a>
+                            </p>
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fa fa-times"></i>
+                                Close 
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto">
+                        <div class="modal-body" style="align-self:center; text-align: center;">
+                            <!-- Project Details Go Here -->
+                            <h2>Careers</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="~/Image/Home/Careers_full.jpg"  style="width:100%;height:100%;" alt="">
+                            <p>When compared to other logistics companies in the tri-state, thankfully, we’re still small. 
+                            That’s great news for you because that means your opportunity is bigger. The job is hard, but our team of great people makes it better. 
+                            And because we don’t have hundreds of brokers, and you don’t have to compete with the person next to you for prospective customers,
+                            the people around you truly are on your team.   We work to give the tools to our people to be successful—to overcome every objection from potential customers.
+                            The RTS family of companies includes our own trucks, proprietary technology, warehousing, and equipment leasing,
+                            which gives you the ability to do what your competitors can’t. When these tools are paired with our core values of superior customer service
+                            and ethical business practices, you can start your new career knowing you will be proud to be a part of RTS. So, come on—what are you waiting for? 
+                            #JoinTheTeam<a href="https://www.relyonrts.com/careers/"> TO KNOW MORE.</a>
+                            </p>
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fa fa-times"></i>
+                                Close 
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
